@@ -18,15 +18,6 @@ Bu Go dilinde yazılmış basit bir ağ güvenlik aracıdır. Bu araç, belirtil
 - Çoklu iş parçacıkları kullanarak paralel tarama.
 - Açık olan portların raporlanması.
 
-## Geliştirme
-
-Proje üzerinde geliştirmeler yapmak veya katkıda bulunmak için lütfen bir çekme isteği gönderin.
-
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakın.
-
-   
 
 
 
