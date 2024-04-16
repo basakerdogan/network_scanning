@@ -1,24 +1,27 @@
-# network_scanning
+# Port Scanner
 
-Bu Go dilinde yazılmış basit bir ağ güvenlik aracıdır. Bu araç, belirtilen bir IP aralığındaki tüm portları taramak için çoklu iş parçacıkları kullanır. TCP taraması yapar ve açık olan portları raporlar.
+This is a simple port scanner tool written in Go. It allows you to scan a range of IP addresses for open ports and performs basic vulnerability checks on the open ports.
 
-## Kullanım
+## Usage
 
-1. Bu projeyi bilgisayarınıza klonlayın: https://github.com/basakerdogan/network_scanning
-2. Proje dizinine gidin
-3. Proje dosyalarını düzenleyin ve özelleştirin (isteğe bağlı).
-4. Projeyi derleyin
-5. Ardından, aşağıdaki komutu kullanarak aracı çalıştırın:
-   ./ag-guvenlik-araci <Hedef_IP_adresi_başlangıç> <Hedef_IP_adresi_bitiş>
+To use this tool, you need to have Go installed on your system.
 
+### Running the Executable
 
-## Özellikler
-
-- Belirtilen bir IP aralığındaki tüm portları tarama.
-- Çoklu iş parçacıkları kullanarak paralel tarama.
-- Açık olan portların raporlanması.
+If you have already built the executable, you can run it with the following command:
 
 
 
+For example:
 
 
+This command will scan the IP addresses from `192.168.1.1` to `192.168.1.10` for open ports.
+
+### Using `go run`
+
+If you want to run the tool without building the executable, you can use the `go run` command:
+
+go run main.go <Starting_IP_address> <Ending_IP_address> 
+
+### Using `.exe `
+./main.exe <Starting_IP_address> <Ending_IP_address> 
