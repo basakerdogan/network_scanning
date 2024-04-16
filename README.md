@@ -1,4 +1,4 @@
-# Port Scanner
+# Network Scanning
 
 This is a simple port scanner tool written in Go. It allows you to scan a range of IP addresses for open ports and performs basic vulnerability checks on the open ports.
 
