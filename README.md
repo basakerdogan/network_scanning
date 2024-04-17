@@ -10,10 +10,11 @@ To use this tool, you need to have Go installed on your system.
 
 If you have already built the executable, you can run it with the following command:
 
-
+### Using `.exe `
+./main.exe <Starting_IP_address> <Ending_IP_address> 
 
 For example:
-
+./main.exe 192.168.1.1 192.168.1.10
 
 This command will scan the IP addresses from `192.168.1.1` to `192.168.1.10` for open ports.
 
@@ -23,5 +24,5 @@ If you want to run the tool without building the executable, you can use the `go
 
 go run main.go <Starting_IP_address> <Ending_IP_address> 
 
-### Using `.exe `
-./main.exe <Starting_IP_address> <Ending_IP_address> 
+For example:
+go run main.go 192.168.1.1 192.168.1.10
